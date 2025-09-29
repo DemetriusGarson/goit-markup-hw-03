@@ -1,0 +1,221 @@
+/*=========="DEFAULT" STYLE SET==============*/
+ul,
+ol{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    cursor: pointer;
+}
+
+body{
+Font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #434455;
+background-color: #ffffff;
+}
+/*==========/"DEFAULT" STYLE SET==============*/
+
+
+/*===========PAGE HEADER STYLE==============*/
+.page-logo
+{
+    font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5
+}
+
+.logo-studio-header{
+    font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.16667;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #2e2f42;
+}
+
+.menu-nav-link{
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+
+address{
+    font-style: normal;
+}
+
+.contacts-list-link {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-style:normal;
+    color: #434455;
+}
+
+.menu-nav-link:hover,
+.menu-nav-link:focus,
+.contacts-list-link:hover,
+.contacts-list-link:focus {
+
+    color: #404bbf;
+}
+/*===========/PAGE HEADER STYLE==============*/
+
+
+/*===========HERO SECTION STYLE==============*/
+.hero-section{
+    background-color: #2e2f42;
+}
+.hero-section-heading{
+    font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #fff;
+}
+.hero-section-button{
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #fff;
+    
+    background: #4d5ae5;
+}
+.hero-section-button:hover,
+.hero-section-button:focus{
+    background-color: #404BBF;
+}
+/*===========/HERO SECTION STYLE==============*/
+
+
+/*===========BENEFITS SECTION STYLE==============*/
+.benefits-section-heading{
+   color:#fff;
+}
+.benefits-item-heading{
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+.benefits-item-description{
+    font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+/*===========/BENEFITS SECTION STYLE==============*/
+
+
+/*===========TEAM SECTION STYLE==============*/
+.team-section{
+    background: #f4f4fd;
+}
+.team-section-heading{
+    font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+        text-transform: capitalize;
+        
+}
+.team-list-item{
+        background: #fff;
+}
+.team-item-heading{
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
+.team-item-description{
+    font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #434455;
+}
+/*===========/TEAM SECTION STYLE==============*/
+
+/*===========PORTFOLIO SECTION STYLE==============*/
+.portfolio-section-heading{
+    font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+        text-transform: capitalize;
+}
+.portfolio-item-heading{
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+.portfolio-item-description{
+    font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+/*===========/PORTFOLIO SECTION STYLE==============*/
+
+/*===========FOOTER SECTION STYLE==============*/
+.benefits-item-description{
+    background: #2e2f42;
+}
+.logo-studio-footer{
+    color:#f4f4fd;
+    line-height: 1.17
+}
+.footer-description{
+    font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #F4F4FD;
+}
+.footer-section{
+    background-color: #2e2f42;
+}
+/*===========FOOTER SECTION STYLE==============*/
