@@ -1,6 +1,20 @@
 /*=========="DEFAULT" STYLE SET==============*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 ul,
 ol{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
     list-style-type: none;
 }
 
@@ -12,6 +26,11 @@ button{
     cursor: pointer;
 }
 
+
+img {
+    display: block;
+}
+
 body{
 Font-family: "Roboto", sans-serif;
 font-weight: 500;
@@ -20,6 +39,20 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color: #434455;
 background-color: #ffffff;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 /*==========/"DEFAULT" STYLE SET==============*/
 
