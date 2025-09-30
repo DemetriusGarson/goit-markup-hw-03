@@ -79,6 +79,7 @@ background-color: #ffffff;
 .header{
     width: 1158px;
     margin-left: 156px;
+    border-bottom: 1px solid #e7e9fcж
     
 }
 
@@ -86,11 +87,9 @@ background-color: #ffffff;
     display: flex;
     /* align-items: center; */
     width: 1158px;
-        padding-left: 15px;
-        padding-right: 15px;
-        margin: 0 auto;
-        border-bottom: 1px solid #e7e9fc;
-    
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
     justify-content: space-between;
     
  }
@@ -307,17 +306,18 @@ gap: 40px;
 .team-list{
     display: flex;
     gap: 24px;
-    background: #fff;
+    /* background: #fff; */
     
 }
 
-.team-item-img {
+/* .team-item-img {
     margin-bottom: 32px;
-}
+} */
 
 .team-list-item-wrapper{
 padding: 32px 0;
 border-radius: 0 0 4px 4px;
+background: #fff;
 
 }
 
@@ -347,7 +347,7 @@ border-radius: 0 0 4px 4px;
         letter-spacing: 0.02em;
         text-align: center;
         /* color: #434455; */
-        margin-bottom: 32px;
+        /* margin-bottom: 32px; */
 }
 /*===========/TEAM SECTION STYLE==============*/
 
