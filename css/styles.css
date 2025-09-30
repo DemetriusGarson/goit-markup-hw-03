@@ -54,10 +54,67 @@ background-color: #ffffff;
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+.container{
+        max-width: 1440px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 156px;
+        padding-right: 156px;
+}
+
+.section{
+    padding-top: 120px;
+    padding-bottom: 120px;;
+}
+
+
 /*==========/"DEFAULT" STYLE SET==============*/
 
 
 /*===========PAGE HEADER STYLE==============*/
+.page-header{
+border-bottom: 1px solid #e7e9fc;
+}
+
+.page-header .container {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+        display: flex;
+       align-items: center;
+    justify-content: space-between;
+    
+ }
+
+.page-nav {
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.menu-nav {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+ 
+}
+.page-address {
+    font-style: normal;
+   
+}
+
+.page-logo{
+    padding-left: auto;
+    margin-right: 76px;
+}
+
+.contacts-list{
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+}
+
 .page-logo
 {
         font-family: "Raleway", sans-serif;
@@ -67,6 +124,7 @@ background-color: #ffffff;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5
+       
 }
 
 .logo-studio-header{
@@ -82,15 +140,17 @@ background-color: #ffffff;
 .menu-nav-link{
         /* font-family: "Roboto", sans-serif; */
         /* font-weight: 500; */
+        
         font-size: 16px;
         line-height: 1.5;
         /* letter-spacing: 0.02em; */
         color: #2e2f42;
+        display: block;
+        padding-top: 25.5px;
+        padding-bottom: 25.5px;
 }
 
-address{
-    font-style: normal;
-}
+
 
 .contacts-list-link {
     /* font-family: "Roboto", sans-serif; */
@@ -100,6 +160,9 @@ address{
     letter-spacing: 0.02em;
     font-style:normal;
     color: #434455;
+    display: block;
+    padding-top: 25.5px;
+    padding-bottom: 25.5px;
 }
 
 .menu-nav-link:hover,
@@ -113,6 +176,15 @@ address{
 
 
 /*===========HERO SECTION STYLE==============*/
+.hero-section .container{
+        display: flex;
+        flex-direction: column;
+            align-items: center;
+            align-items: center;
+            width: 496px;
+            row-gap: 48px;
+}
+
 .hero-section{
     background-color: #2e2f42;
 }
@@ -122,6 +194,7 @@ address{
         font-size: 56px;
         line-height: 1.07;
         letter-spacing: 0.02em;
+        width: 496px;
         text-align: center;
         color: #fff;
 }
@@ -132,6 +205,8 @@ address{
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #fff;
+        padding: 16px 32px;
+        border-radius: 4px;
     
     background: #4d5ae5;
 }
@@ -143,6 +218,23 @@ address{
 
 
 /*===========BENEFITS SECTION STYLE==============*/
+
+.benefits-section .container{
+        align-items: center;
+        align-items: center;
+        
+}
+
+.benefits-list{
+    display: flex;
+    column-gap: 24px;
+    
+}
+
+.benefits-list-item{
+    width: 264px;
+    column-gap: 24px;
+}
 
 .benefits-item-heading{
         /* font-family: "Roboto", sans-serif; */
@@ -159,11 +251,32 @@ address{
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+        padding-top:8px;
 }
 /*===========/BENEFITS SECTION STYLE==============*/
 
 
 /*===========TEAM SECTION STYLE==============*/
+
+.team-section .container{
+    align-items: center;
+    align-items: center;
+}
+
+.team-list{
+    display: flex;
+    column-gap: 24px;
+    
+}
+
+.team-list-item{
+    border-radius: 0 0 4px 4px;
+}
+
+.team-item-img{
+    margin-bottom: 32px;
+}
+
 .team-section{
     background: #f4f4fd;
 }
@@ -176,6 +289,9 @@ address{
         text-align: center;
         color: #2e2f42;
         text-transform: capitalize;
+        margin-bottom: 72px;
+
+        
         
 }
 .team-list-item{
@@ -198,10 +314,27 @@ address{
         letter-spacing: 0.02em;
         text-align: center;
         /* color: #434455; */
+        margin-bottom: 32px;
 }
 /*===========/TEAM SECTION STYLE==============*/
 
 /*===========PORTFOLIO SECTION STYLE==============*/
+
+.portfolio-section .container{
+    align-items: center;
+    max-width: 1440px;
+}   
+
+.portfolio-list{
+    display: flex;
+    
+    /* flex-wrap: wrap; */
+    align-items: center;
+    
+    /* column-gap: 24px; */
+
+}
+
 .portfolio-section-heading{
     font-family: "Roboto", sans-serif;
         font-weight: 700;
