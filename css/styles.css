@@ -62,7 +62,6 @@ body{
 }
 
 .section{
-    max-width: 1440px; 
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -74,17 +73,11 @@ body{
 /*===========PAGE HEADER STYLE==============*/
 
 .header{
-    width: 1158px;
-    margin-left: 156px;
     border-bottom: 1px solid #e7e9fc;
 }
 
 .header .container {
     display: flex;
-    width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
     justify-content: space-between;
 }
 
@@ -101,7 +94,6 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    padding-left: auto;
     margin-right: 76px;
     margin-bottom: 0;
 }
@@ -241,7 +233,6 @@ body{
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
-        padding-top:8px;
 }
 
 /*===========/BENEFITS SECTION STYLE==============*/
@@ -277,9 +268,9 @@ body{
 }
 
 .team-list-item-wrapper{
-padding: 32px 0;
-border-radius: 0 0 4px 4px;
-background: #fff;
+    padding: 32px 0;
+    border-radius: 0 0 4px 4px;
+    background: #fff;
 }
 
 .team-item-heading{
@@ -366,13 +357,13 @@ background: #fff;
     display: inline-block;
     margin-bottom: 16px;
     text-transform: uppercase;
+    color: #4d5ae5;
 }
 
 .logo-studio-footer{
     color:#f4f4fd;
     line-height: 1.17;
     display: inline-block;
-    margin-bottom: 16px;
     text-transform: uppercase;
 }
 .footer-description{
@@ -382,7 +373,6 @@ background: #fff;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #F4F4FD;
-        margin-top: 16px;
         max-width: 264px;
 }
 .footer-section{
