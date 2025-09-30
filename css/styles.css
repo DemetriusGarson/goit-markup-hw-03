@@ -379,16 +379,15 @@ border-radius: 0 0 4px 4px;
     padding-left: 156px;
     padding-right: 156px;
     
+    
     }
 
-
-    
-
-.portfolio-list-item-wrapper{
+    .portfolio-list-item-wrapper{
     padding: 32px 16px;
     border-right: 1px solid #e7e9fc;
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
+    
     
     
 }
@@ -401,6 +400,7 @@ border-radius: 0 0 4px 4px;
         letter-spacing: 0.02em;
         color: #2e2f42;
         margin-bottom: 8px;
+        
         
    
 }
@@ -431,9 +431,10 @@ margin-bottom: 16px;
 .logo-studio-footer{
     color:#f4f4fd;
     line-height: 1.17;
+    display: inline-block;
+    margin-bottom: 16px;
     
-    
-}
+    }
 .footer-description{
     font-family: "Roboto", sans-serif;
         font-weight: 400;
