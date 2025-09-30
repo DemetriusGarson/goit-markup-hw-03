@@ -373,8 +373,7 @@ border-radius: 0 0 4px 4px;
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
-    gap: 48px;
-    padding-left: 156px;
+     padding-left: 156px;
     padding-right: 156px;
     }
 
@@ -386,7 +385,6 @@ border-radius: 0 0 4px 4px;
 
 .portfolio-list-item-wrapper{
     padding: 32px 16px;
-    
     border-right: 1px solid #e7e9fc;
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
@@ -416,11 +414,15 @@ border-radius: 0 0 4px 4px;
 
 /*===========FOOTER SECTION STYLE==============*/
 
+.page-logo{
+display: inline-block;
+margin-bottom: 16px;
+}
+
 .logo-studio-footer{
     color:#f4f4fd;
     line-height: 1.17;
-    display: inline-block;
-    margin-bottom: 16px;
+    
     
 }
 .footer-description{
