@@ -93,8 +93,29 @@ border-bottom: 1px solid #e7e9fc;
 .page-nav {
     display: flex;
     align-items: center;
-    
-    
+        
+}
+
+.page-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    padding-left: auto;
+    margin-right: 76px;
+}
+
+.logo-studio-header {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
 }
 
 .menu-nav {
@@ -103,14 +124,30 @@ border-bottom: 1px solid #e7e9fc;
     column-gap: 40px;
  
 }
+
+.menu-nav-link {
+    /* font-family: "Roboto", sans-serif; */
+    /* font-weight: 500; */
+
+    font-size: 16px;
+    line-height: 1.5;
+    /* letter-spacing: 0.02em; */
+    color: #2e2f42;
+    display: block;
+    padding-top: 25.5px;
+    padding-bottom: 25.5px;
+}
+
+.menu-nav-link:hover,
+.menu-nav-link:focus,
+.contacts-list-link:hover,
+.contacts-list-link:focus {
+    color: #404bbf;
+}
+
 .page-address {
     font-style: normal;
    
-}
-
-.page-logo{
-    padding-left: auto;
-    margin-right: 76px;
 }
 
 .contacts-list{
@@ -118,43 +155,6 @@ border-bottom: 1px solid #e7e9fc;
     align-items: center;
     column-gap: 40px;
 }
-
-.page-logo
-{
-        font-family: "Raleway", sans-serif;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #4d5ae5
-       
-}
-
-.logo-studio-header{
-    font-family: "Raleway", sans-serif;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 1.16667;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #2e2f42;
-}
-
-.menu-nav-link{
-        /* font-family: "Roboto", sans-serif; */
-        /* font-weight: 500; */
-        
-        font-size: 16px;
-        line-height: 1.5;
-        /* letter-spacing: 0.02em; */
-        color: #2e2f42;
-        display: block;
-        padding-top: 25.5px;
-        padding-bottom: 25.5px;
-}
-
-
 
 .contacts-list-link {
     /* font-family: "Roboto", sans-serif; */
@@ -169,17 +169,14 @@ border-bottom: 1px solid #e7e9fc;
     padding-bottom: 25.5px;
 }
 
-.menu-nav-link:hover,
-.menu-nav-link:focus,
-.contacts-list-link:hover,
-.contacts-list-link:focus {
-
-    color: #404bbf;
-}
 /*===========/PAGE HEADER STYLE==============*/
 
 
 /*===========HERO SECTION STYLE==============*/
+.hero-section {
+    background-color: #2e2f42;
+}
+
 .hero-section .container{
         display: flex;
         flex-direction: column;
@@ -192,9 +189,6 @@ border-bottom: 1px solid #e7e9fc;
             row-gap: 48px;
 }
 
-.hero-section{
-    background-color: #2e2f42;
-}
 .hero-section-heading{
         /* font-family: "Roboto", sans-serif; */
         font-weight: 700;
@@ -205,6 +199,7 @@ border-bottom: 1px solid #e7e9fc;
         text-align: center;
         color: #fff;
 }
+
 .hero-section-button{
     font-family: "Roboto", sans-serif;
         font-weight: 500;
@@ -217,10 +212,12 @@ border-bottom: 1px solid #e7e9fc;
     
     background: #4d5ae5;
 }
+
 .hero-section-button:hover,
 .hero-section-button:focus{
     background-color: #404BBF;
 }
+
 /*===========/HERO SECTION STYLE==============*/
 
 
@@ -229,9 +226,7 @@ border-bottom: 1px solid #e7e9fc;
 .benefits-section .container{
         margin-left: auto;
         margin-right: auto;
-        align-items: center;
-        
-       
+        align-items: center;  
 }
 
 .benefits-list{
@@ -262,10 +257,15 @@ border-bottom: 1px solid #e7e9fc;
         color: #434455;
         padding-top:8px;
 }
+
 /*===========/BENEFITS SECTION STYLE==============*/
 
 
 /*===========TEAM SECTION STYLE==============*/
+
+.team-section {
+    background: #f4f4fd;
+}
 
 .team-section .container{
     margin-left: auto;
@@ -274,9 +274,23 @@ border-bottom: 1px solid #e7e9fc;
    
 }
 
+.team-section-heading {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+
+}
+
 .team-list{
     display: flex;
     column-gap: 24px;
+    background: #fff;
     
 }
 
@@ -288,26 +302,6 @@ border-bottom: 1px solid #e7e9fc;
     margin-bottom: 32px;
 }
 
-.team-section{
-    background: #f4f4fd;
-}
-.team-section-heading{
-    font-family: "Roboto", sans-serif;
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #2e2f42;
-        text-transform: capitalize;
-        margin-bottom: 72px;
-
-        
-        
-}
-.team-list-item{
-        background: #fff;
-}
 .team-item-heading{
     /* font-family: "Roboto", sans-serif; */
         /* font-weight: 500; */
@@ -339,6 +333,19 @@ border-bottom: 1px solid #e7e9fc;
     
 }   
 
+.portfolio-section-heading {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+
+}
+
 .portfolio-list{
     display: flex;
     flex-wrap: wrap;
@@ -356,23 +363,7 @@ border-bottom: 1px solid #e7e9fc;
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
 }
-
-
-
-    
-
-.portfolio-section-heading{
-    font-family: "Roboto", sans-serif;
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #2e2f42;
-        text-transform: capitalize;
-        margin-bottom: 72px;
-        
-}
+  
 .portfolio-item-heading{
     /* font-family: "Roboto", sans-serif; */
         font-weight: 500;
@@ -383,6 +374,7 @@ border-bottom: 1px solid #e7e9fc;
         padding-bottom: 8px;
    
 }
+
 .portfolio-item-description{
     /* font-family: "Roboto", sans-serif; */
         font-weight: 400;
@@ -391,6 +383,7 @@ border-bottom: 1px solid #e7e9fc;
         letter-spacing: 0.02em;
      
 }
+
 /*===========/PORTFOLIO SECTION STYLE==============*/
 
 /*===========FOOTER SECTION STYLE==============*/
