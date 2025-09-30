@@ -74,7 +74,8 @@ background-color: #ffffff;
 
 /*===========PAGE HEADER STYLE==============*/
 .page-header{
-    max-width: 1440px;
+width: 1158px;
+padding: 0 15px 0 15px;
 border-bottom: 1px solid #e7e9fc;
 }
 
@@ -93,6 +94,7 @@ border-bottom: 1px solid #e7e9fc;
 .page-nav {
     display: flex;
     align-items: center;
+    
         
 }
 
@@ -121,8 +123,10 @@ border-bottom: 1px solid #e7e9fc;
 .menu-nav {
     display: flex;
     align-items: center;
-    column-gap: 40px;
- 
+    
+}
+.menu-nav:not(last-child){
+gap: 40px;
 }
 
 .menu-nav-link {
@@ -134,8 +138,7 @@ border-bottom: 1px solid #e7e9fc;
     /* letter-spacing: 0.02em; */
     color: #2e2f42;
     display: block;
-    padding-top: 25.5px;
-    padding-bottom: 25.5px;
+    padding: 24px 0 24px;
 }
 
 .menu-nav-link:hover,
@@ -153,7 +156,10 @@ border-bottom: 1px solid #e7e9fc;
 .contacts-list{
     display: flex;
     align-items: center;
-    column-gap: 40px;
+    
+}
+.contacts-list:not(:last-child){
+gap: 40px;
 }
 
 .contacts-list-link {
