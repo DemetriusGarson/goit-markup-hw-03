@@ -55,14 +55,15 @@ background-color: #ffffff;
     overflow: hidden;
 }
 .container{
-        max-width: 1440px;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 156px;
-        padding-right: 156px;
+    max-width: 1440px; 
+    padding-left: 156px;
+    padding-right: 156px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .section{
+    max-width: 1440px;
     padding-top: 120px;
     padding-bottom: 120px;;
 }
@@ -73,15 +74,18 @@ background-color: #ffffff;
 
 /*===========PAGE HEADER STYLE==============*/
 .page-header{
+    max-width: 1440px;
 border-bottom: 1px solid #e7e9fc;
 }
 
 .page-header .container {
-    max-width: 1440px;
+
+    padding-left: 156px;
+    padding-right: 156px;
     margin-left: auto;
     margin-right: auto;
-        display: flex;
-       align-items: center;
+    display: flex;
+    align-items: center;
     justify-content: space-between;
     
  }
@@ -179,8 +183,11 @@ border-bottom: 1px solid #e7e9fc;
 .hero-section .container{
         display: flex;
         flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        
             align-items: center;
-            align-items: center;
+            
             width: 496px;
             row-gap: 48px;
 }
@@ -220,9 +227,11 @@ border-bottom: 1px solid #e7e9fc;
 /*===========BENEFITS SECTION STYLE==============*/
 
 .benefits-section .container{
-        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
         align-items: center;
         
+       
 }
 
 .benefits-list{
@@ -259,8 +268,10 @@ border-bottom: 1px solid #e7e9fc;
 /*===========TEAM SECTION STYLE==============*/
 
 .team-section .container{
+    margin-left: auto;
+    margin-right: auto;
     align-items: center;
-    align-items: center;
+   
 }
 
 .team-list{
@@ -321,19 +332,34 @@ border-bottom: 1px solid #e7e9fc;
 /*===========PORTFOLIO SECTION STYLE==============*/
 
 .portfolio-section .container{
+    
+    margin-left: auto;
+    margin-right: auto;
     align-items: center;
-    max-width: 1440px;
+    
 }   
 
 .portfolio-list{
     display: flex;
-    
-    /* flex-wrap: wrap; */
-    align-items: center;
-    
-    /* column-gap: 24px; */
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+    padding-left: 156px;
+    padding-right: 156px;
+    }
 
+.portfolio-list-item-wrapper{
+    padding-left: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    border-right: 1px solid #e7e9fc;
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
 }
+
+
+
+    
 
 .portfolio-section-heading{
     font-family: "Roboto", sans-serif;
@@ -344,6 +370,8 @@ border-bottom: 1px solid #e7e9fc;
         text-align: center;
         color: #2e2f42;
         text-transform: capitalize;
+        margin-bottom: 72px;
+        
 }
 .portfolio-item-heading{
     /* font-family: "Roboto", sans-serif; */
@@ -352,6 +380,8 @@ border-bottom: 1px solid #e7e9fc;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        padding-bottom: 8px;
+   
 }
 .portfolio-item-description{
     /* font-family: "Roboto", sans-serif; */
@@ -359,7 +389,7 @@ border-bottom: 1px solid #e7e9fc;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        /* color: #434455; */
+     
 }
 /*===========/PORTFOLIO SECTION STYLE==============*/
 
@@ -367,7 +397,8 @@ border-bottom: 1px solid #e7e9fc;
 
 .logo-studio-footer{
     color:#f4f4fd;
-    line-height: 1.17
+    line-height: 1.17;
+    
 }
 .footer-description{
     font-family: "Roboto", sans-serif;
@@ -376,8 +407,13 @@ border-bottom: 1px solid #e7e9fc;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #F4F4FD;
+        margin-top: 16px;
+        width: 264px;
 }
 .footer-section{
     background-color: #2e2f42;
+}
+.footer-section-wrapper{
+    margin-left: 156px;
 }
 /*===========FOOTER SECTION STYLE==============*/
