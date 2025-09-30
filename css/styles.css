@@ -65,7 +65,7 @@ background-color: #ffffff;
 .section{
     max-width: 1440px;
     padding-top: 120px;
-    padding-bottom: 120px;;
+    padding-bottom: 120px;
 }
 
 
@@ -73,12 +73,10 @@ background-color: #ffffff;
 
 
 /*===========PAGE HEADER STYLE==============*/
-header {
-width: 1158px;
-padding: 0 15px 0 15px;
-}
 
-.page-header{
+.header{
+    width: 1158px;
+        padding: 0 15px 0 15px;
     border-bottom: 1px solid #e7e9fc;
 }
 
